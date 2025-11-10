@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle">
+   <string>Hypercontent CRUD - Daerah Tempat Tinggalku (PyQt5)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <widget class="QWidget" name="tabStudents">
+       <attribute name="title"><string>Siswa</string></attribute>
+       <layout class="QVBoxLayout" name="vl1">
+        <item><widget class="QTableWidget" name="tblStudents"/></item>
+        <item>
+         <layout class="QHBoxLayout" name="hl1">
+          <item><widget class="QPushButton" name="btnAddStudent"><property name="text"><string>Tambah</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnEditStudent"><property name="text"><string>Ubah</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnDelStudent"><property name="text"><string>Hapus</string></property></widget></item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabSubthemes">
+       <attribute name="title"><string>Subtema</string></attribute>
+       <layout class="QVBoxLayout" name="vl2">
+        <item><widget class="QTableWidget" name="tblSubthemes"/></item>
+        <item>
+         <layout class="QHBoxLayout" name="hl2">
+          <item><widget class="QPushButton" name="btnAddSub"><property name="text"><string>Tambah</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnEditSub"><property name="text"><string>Ubah</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnDelSub"><property name="text"><string>Hapus</string></property></widget></item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabResources">
+       <attribute name="title"><string>Resources</string></attribute>
+       <layout class="QVBoxLayout" name="vl3">
+        <item><widget class="QTableWidget" name="tblResources"/></item>
+        <item>
+         <layout class="QHBoxLayout" name="hl3">
+          <item><widget class="QPushButton" name="btnAddRes"><property name="text"><string>Tambah</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnEditRes"><property name="text"><string>Ubah</string></property></widget></item>
+          <item><widget class="QPushButton" name="btnDelRes"><property name="text"><string>Hapus</string></property></widget></item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
