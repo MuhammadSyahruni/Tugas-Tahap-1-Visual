@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuData_Master">
+    <property name="title">
+     <string>Data Master</string>
+    </property>
+    <addaction name="actionSub_Tema"/>
+    <addaction name="actionMateri"/>
+    <addaction name="actionHyperlink"/>
+    <addaction name="actionValidasi"/>
+   </widget>
+   <widget class="QMenu" name="menuLaporan">
+    <property name="title">
+     <string>Laporan</string>
+    </property>
+    <addaction name="actionCetak_PDF"/>
+   </widget>
+   <addaction name="menuData_Master"/>
+   <addaction name="menuLaporan"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSub_Tema">
+   <property name="text">
+    <string>Sub Tema</string>
+   </property>
+  </action>
+  <action name="actionMateri">
+   <property name="text">
+    <string>Materi Pembelajaran</string>
+   </property>
+  </action>
+  <action name="actionHyperlink">
+   <property name="text">
+    <string>Resource Multimedia</string>
+   </property>
+  </action>
+  <action name="actionValidasi">
+   <property name="text">
+    <string>Validasi Ahli</string>
+   </property>
+  </action>
+  <action name="actionCetak_PDF">
+   <property name="text">
+    <string>Cetak PDF</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
